@@ -2,9 +2,10 @@
 
 |                    | timezonefinder | tzfpy  |
 | ------------------ | -------------- | ------ |
-| Pandas             | 11.3 s         | 2.51 s |
-| Pandas(Vectorized) | 8.1 s          | 507 ms |
-| Polars             | 8.19 s         | 790 ms |
+| Pandas             | 8.48 s         | 1.89 s |
+| Pandas(Vectorized) | 6.09 s         | 396 ms |
+| Polars             | 7 s            | 664 ms |
+| NumPy              | 7.9 s          | 397 ms |
 
 View it here:
 [showcase.ipynb](https://nbviewer.org/github/ringsaturn/df-lng-lat-timezones/blob/main/showcase.ipynb)
